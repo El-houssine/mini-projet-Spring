@@ -1,0 +1,10 @@
+CREATE TABLE PRODUIT(ID integer identity,libelleProduit  VARCHAR(25),prix FLOAT,Idcat integer );
+CREATE TABLE CATEGORIE(Idcat integer identity,nomCat VARCHAR(25) );
+insert into PRODUIT VALUES ('portable',1200.20,1);
+insert into PRODUIT VALUES ('PC',9000.20,1);
+insert into PRODUIT VALUES ('voiture',80000.0,2);
+insert into PRODUIT VALUES ('Moto',70000.0,2);
+insert into PRODUIT VALUES ('appartement',250000.0,3);
+insert into CATEGORIE VALUES(1,'Multimedia');
+insert into CATEGORIE VALUES(2,'Vihecules');
+insert into CATEGORIE VALUES(3,'Immobilier');
